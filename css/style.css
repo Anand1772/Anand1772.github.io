@@ -404,6 +404,11 @@ ol.type li a:hover {
 	padding: 0;
 	margin: 0;
 }
+/*Map Section */
+#map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
 /* Resume Section */
 #resume {
 	padding: 100px 0;
