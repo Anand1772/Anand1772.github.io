@@ -26,6 +26,20 @@
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}</script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+</script>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -337,6 +351,7 @@
     </div>
   </div>
 </div>
+ <div id="map"></div>
 <div id="footer">
   <div class="container text-center">
     <div class="fnav">
