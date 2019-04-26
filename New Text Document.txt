@@ -1,0 +1,2 @@
+https://docs.campaign.adobe.com/doc/AC/en/WEB_Web_applications_Creating_a_new_web_application.html
+https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Building_a_workflow.html
